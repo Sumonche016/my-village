@@ -6,6 +6,7 @@ const Banner = () => {
         <div className='flex justify-between items-center  w-11/12 mx-auto mt-[6.5rem]'>
             <div className='banner-left flex  items-center w-[50%]'>
                 <div>
+                    <h1>This is from sourav</h1>
                     <h1 className=' banner-tittle'> We Are GoalDah  <span className='text-[#3334a0]'>Young Star</span></h1>
                     <p>united we stand devided we fall</p>
                 </div>
