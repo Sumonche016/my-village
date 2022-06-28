@@ -10,7 +10,7 @@ const Banner = () => {
                     <h1 className=' banner-tittle'> We Are GoalDah  <span className='text-[#3334a0]'>Young Star</span></h1>
                     <p>united we stand devided we fall</p>
                 </div>
-                <h1>this is from sumon</h1>
+                <h1>from sumon</h1>
             </div>
             <div className='banner-right w-[50%]'>
                 <img className='w-full' src={banner} alt="" />
