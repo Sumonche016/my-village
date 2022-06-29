@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from '../../../image/logo.png'
 import './Header.css'
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const menu = <>
-        <li>Home</li>
+        <li><Link to={'/'}>Home</Link></li>
         <li>Service</li>
         <li>Contact</li>
         <li>About</li>
@@ -22,7 +23,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="nav-end">
-                    <button className='btn'>Sign Up</button>
+                    <button className='btn'><Link to={'/signup'}>SignUp</Link></button>
                 </div>
             </div>
         </header>

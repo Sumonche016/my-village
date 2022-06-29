@@ -9,6 +9,13 @@
   display: inline-block;
   text-align: center;
   color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #ff4300;
+  outline: 0;
 }
 
 .banner-tittle {
@@ -17,4 +24,34 @@
   font-family: "Montserrat", sans-serif;
   line-height: 90px;
   text-transform: inherit;
+}
+
+.united-text {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* /input desigb */
+.form-input,
+.review-input {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 0;
+  color: #666;
+  font-size: 13px !important;
+
+  outline: none;
+  padding: 13px 20px !important;
+  width: 100%;
+}
+
+.shadow {
+  box-shadow: 0 5px 20px rgb(0 0 0/6%) !important;
+}
+
+.text-blue-dark {
+  color: #3334a0;
 }

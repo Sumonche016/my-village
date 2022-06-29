@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
@@ -23,6 +26,7 @@ window.onscroll = function () {
   var currentScrollpos = window.pageYOffset;
   if (prevScrollpos > currentScrollpos) {
     document.getElementById("navbar").style.top = "0";
+    document.getElementById("navbar").classList.add = 'shadow-lg'
 
   } else {
     document.getElementById("navbar").style.top = "-100px";
