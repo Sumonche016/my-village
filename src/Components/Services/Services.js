@@ -1,0 +1,21 @@
+import React from 'react';
+
+const Services = () => {
+    return (
+        <div>
+            <div class="indicator">
+                <div class="indicator-item indicator-bottom">
+                    <button class="btn btn-primary">Apply</button>
+                </div>
+                <div class="card border">
+                    <div class="card-body">
+                        <h2 class="card-title">Job Title</h2>
+                        <p>Rerum reiciendis beatae tenetur excepturi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Services;
